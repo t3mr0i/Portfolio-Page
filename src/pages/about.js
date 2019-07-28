@@ -16,7 +16,7 @@ class About extends React.Component {
   <div className="Test">
     <div className="Hero" >
       <div className="HeroGroup" >
-        <h1 > <b> Hi, I 'm Kai</b> <br />
+        <h1 > <b> Hi, I 'm Ktai</b> <br />
           I 'm a UX/UI designer + programmer  <br /> living in <b> Bremen </b></h1 >
           <p > I 'm passionate about everything digital. <br/>Especially creating unique user experiences. I am looking for a place to cooperate with like minded people to create something awesome.<br/>You can find me on Linkedin or shoot me an email. </p>
   
