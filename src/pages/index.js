@@ -85,7 +85,7 @@ class Index extends React.Component {
     
    
   <footer class="footer">
-    <p>Some footer nonsense!</p>
+    <p>Feel free to contact me! I’m always available to bounce thoughts around and I'd love to collaborate.</p>
   </footer>
 </div> 
    
