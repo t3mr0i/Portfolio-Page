@@ -32,28 +32,22 @@ class Header extends React.Component {
 
 
     render() {
-        return ( <
-            div className = { this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header' } >
-            <
-            div className = { this.state.hasScrolled ? '___gatsby aScrolled' : '___gatsby' } >
+        return ( <div className = { this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header' } >
+            <div className = { this.state.hasScrolled ? '___gatsby aScrolled' : '___gatsby' } >
 
 
 
-            <
-            div className = "HeaderGroup" >
-            <
-            img width = "30"
+            <div className = "HeaderGroup" >
+            <img width = "30"
             src = { require('../images/temroiNew.png') }
             />
 
-            <
-            Link to = "/courses" > work < /Link>
+            <Link to = "/courses" > work </Link>
 
-            <
-            Link to = "/workshops" > me < /Link> < /
-            div > <
-            /div> < /
-            div >
+            <Link to = "/workshops" > me </Link> 
+            </div >
+             </div>
+              </div >
 
         )
     }
