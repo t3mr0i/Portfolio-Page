@@ -11,8 +11,7 @@ class About extends React.Component {
   
   render() {
     return (
-      <div className={this.state.hasScrolleded ? 'backgrounder  backgrounderScrolled ' : 'backgrounder '}>
-
+<div>
   <div className="Test">
     <div className="Hero" >
       <div className="HeroGroup" >

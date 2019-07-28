@@ -9,34 +9,12 @@ import Card from '../components/card';
 class Index extends React.Component {
 
   
-  constructor(props) {
-    super(props)
   
-    this.state = {
-      hasScrolleded: false
-    }
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll',
-    this.handleScroller)
-  }
-
-  handleScroller = (event) => {
-    const scrollTop = window.pageYOffset
-  
-    if (scrollTop > 200) {
-      this.setState({ hasScrolleded: true })
-    } else {
-      this.setState({ hasScrolleded: false })
-    }
-  }
 
     
   render() {
     return (
-      <div className={this.state.hasScrolleded ? 'backgrounder  backgrounderScrolled ' : 'backgrounder '}>
-
+     <div>
   <div className="Test">
     <div className="Hero" >
       <div className="HeroGroup" >
@@ -81,17 +59,18 @@ class Index extends React.Component {
           text="TwistedReality"
           image='/images/Logo klein.png' />
       </div>
-    </div> 
+    
     
    
   <footer class="footer">
     <p>Feel free to contact me! I’m always available to bounce thoughts around and I'd love to collaborate.</p>
   </footer>
-</div> 
-   
-    
+
+   </div>
+   </div>
    )
     }
   }
+  
             
 export default Index
