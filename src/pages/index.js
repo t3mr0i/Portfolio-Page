@@ -34,7 +34,7 @@ class Index extends React.Component {
       <h2>Some of my works</h2>
       <div className="CardGroup">
         <Card 
-          link="/about.js"
+          link="/about"
           title="Corporate Identity"
           text="Dream Machine"
           image='../images/DreamMachine.png' />

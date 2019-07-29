@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/header'
-import '../layouts/index.css'
-import Card from '../components/card';
+import '../layouts/about.css'
 
+import Card from '../components/card';
+//import PulseExample from '../components/pulseExample'
 
 
 class About extends React.Component {
@@ -14,26 +15,34 @@ class About extends React.Component {
 <div>
   <div className="Test">
     <div className="Hero" >
-      <div className="HeroGroup" >
-        <h1 > <b> Hi, I 'm Ktai</b> <br />
-          I 'm a UX/UI designer + programmer  <br /> living in <b> Bremen </b></h1 >
-          <p > I 'm passionate about everything digital. <br/>Especially creating unique user experiences. I am looking for a place to cooperate with like minded people to create something awesome.<br/>You can find me on Linkedin or shoot me an email. </p>
+    </div>
+      
+      <img className="profil" src = { require('../../static/images/Ich.png') }  />    
+      <div className ="Text">
+      <b> Hello</b>
+          <br />
+        <p > I’m Kai Detmers, a digital designer and programmer living in Bremen, Germany. Digital Media was my passion ever since I got my first computer when I was six. A new world opened and semed to open door after door during the years, VR, AI or now AR. That is what I love about the industry, it is ever changing. To keep up with the industry (and my biggest hooby), I listen to audiobooks or podcasts and simply meeting likeminded people on conferences. I would love to get in touch with you to talk about digital media topics.  </p>
   
+</div>
+
+<img id="image2" className="profil" src = { require('../../static/images/REVEL.png') }  />    
+
+<div id="Text" className ="Text">
+        <p ><b> I love Virtual Reality</b>
+          <br />
+
+When the first Oculus Rift came out, I was among the first who backed it on Kickstarter. Now I own a Facebook Group about mobile VR with around 3.000 members. Albeit being a rather small community and the hype dying down, I see it as the future of computing. </p>
   
-  
-        </div>
-      </div>
+</div>
+        
       
       </div>
      
    
     
-   
-  <footer class="footer">
-    <p>Some footer nonsense!</p>
-  </footer>
-  </div> 
-   
+      </div>
+     
+ 
     
    )
     }

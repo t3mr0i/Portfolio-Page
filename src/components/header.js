@@ -42,9 +42,9 @@ class Header extends React.Component {
             src = { require('../images/temroiNew.png') }
             />
 
-            <Link to = "/courses" > work </Link>
+            <Link to = "/" > work </Link>
 
-            <Link to = "/workshops" > me </Link> 
+            <Link to = "/about/" > me </Link> 
             </div >
              </div>
               </div >
