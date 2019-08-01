@@ -34,7 +34,7 @@ class Index extends React.Component {
       <h2>Some of my works</h2>
       <div className="CardGroup">
         <Card 
-          link="/about"
+          link="https://www.behance.net/gallery/47362097/VA-301-CI-Package"
           title="Corporate Identity"
           text="Dream Machine"
           image='../images/DreamMachine.png' />
@@ -44,17 +44,17 @@ class Index extends React.Component {
           text="DTV DEVILS"
           image='/images/Devils.png' />
         <Card 
-        link="https://www.amazon.de/Kai-Detmers-Tee-Helfer/dp/B079W9RDSM"
+        link="https://www.homeandsmart.de/alexa-skill-tee-helfer"
           title="Smart Home"
           text="Alexa Skill Teehelfer"
           image='/images/TeeHelfer.png' />
         <Card 
-        link="http://wiki.selfhtml.org/wiki/href"
+        link="https://www.kickstarter.com/projects/452339221/300471739?ref=aeu6fy&token=c59a8ed4"
           title="VR Startup"
           text="REVEL"
           image='/images/kleiner.png' />
            <Card 
-           link="http://wiki.selfhtml.org/wiki/href"
+           link="https://www.facebook.com/groups/SocialVR/?ref=bookmarks"
           title="Biggest VR Blog in Benelux"
           text="TwistedReality"
           image='/images/Logo klein.png' />
