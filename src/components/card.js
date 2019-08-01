@@ -1,6 +1,6 @@
 import React from 'react'
 import './card.css'
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 
 const Card = props => (
     <Redirect to ={props.link}>
