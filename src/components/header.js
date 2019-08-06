@@ -38,9 +38,7 @@ class Header extends React.Component {
 
 
             <div className = "HeaderGroup" >
-            <img width = "30"
-            src = { require('../images/temroiNew.png') }
-            />
+           
 
             <Link to = "/" > work </Link>
 

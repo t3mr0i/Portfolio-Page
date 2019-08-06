@@ -34,6 +34,7 @@ class Index extends React.Component {
       <h2>Some of my works</h2>
       <div className="CardGroup">
         <Card 
+         link="https://www.behance.net/gallery/57691747/DTV-Devils-Teamlogo"
           title="Corporate Identity"
           text="Dream Machine"
           image='../images/DreamMachine.png' />
@@ -56,7 +57,12 @@ class Index extends React.Component {
            link="https://www.facebook.com/groups/SocialVR/?ref=bookmarks"
           title="Biggest VR Blog in Benelux"
           text="TwistedReality"
-          image='/images/Logo klein.png' />
+          image='/images/TR.png' />
+          <Card 
+         link="https://www.heise.de/make/meldung/Interaktive-Lampen-zum-Anfassen-die-Ausstellung-Leuchte-in-Bremen-3249332.html?hg=1&hgi=3&hgf=false"
+          title="Arduino"
+          text="SmartLamp"
+          image='../images/EnlightLogo.png' />
       </div>
     
     

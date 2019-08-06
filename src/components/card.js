@@ -4,15 +4,13 @@ import { Link, Redirect, Route } from 'react-router-dom';
 
 const Card = props => (
     
-    <Link to ={props.link}>
-        <a href ={props.link} />
+    <a href ={props.link}>
     <div className="Card">
-
         <img src={props.image} />
         <h3>{props.title}</h3>
         <p>{props.text}</p>
     </div>
-    </Link>
+    </a>
 )
 
 export default Card
