@@ -63,6 +63,17 @@ class Index extends React.Component {
           title="Arduino"
           text="SmartLamp"
           image='../images/EnlightLogo.png' />
+           <Card 
+         link="https://www.youtube.com/watch?v=qvqvz7TR3ek"
+          title="Tangible Interfaces"
+          text="Enlight Timer"
+          image='../images/Enlight.jpeg' />
+          
+          <Card 
+         link="http://temroi.de/Convention.html"
+          title="Bootstrap"
+          text="Example Event Page"
+          image='../images/Bootstrap.png' />
       </div>
     
     
