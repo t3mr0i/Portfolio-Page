@@ -40,7 +40,7 @@ class Index extends React.Component {
           image='../images/DreamMachine.png' />
         <Card 
         link="https://www.behance.net/gallery/57691747/DTV-Devils-Teamlogo"
-          title="Logos"
+          title="Illustrator Logos"
           text="DTV DEVILS"
           image='/images/Devils.png' />
         <Card 
