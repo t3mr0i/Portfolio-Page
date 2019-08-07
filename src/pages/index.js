@@ -72,7 +72,7 @@ class Index extends React.Component {
           <Card 
          link="http://temroi.de/Convention.html"
           title="Bootstrap"
-          text="Example Event Page"
+          text="Event Page"
           image='../images/Bootstrap.png' />
       </div>
     
