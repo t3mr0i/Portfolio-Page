@@ -7,7 +7,7 @@ import '../layouts/about.css'
 //import PulseExample from '../components/pulseExample'
 
 
-class AR extends React.Component {
+class REVEL extends React.Component {
 
 
   render() {
@@ -61,4 +61,4 @@ I started using Oculus Social with my Gear VR, an application that allows users 
   }
 
 
-export default AR
+export default REVEL
