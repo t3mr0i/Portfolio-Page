@@ -29,7 +29,7 @@ class REVEL extends React.Component {
 <div className ="REVELVIDEO">
 
 <video loop autoPlay>
-                            <source src={require('../../static/images/REVEL.mp4')} type="video/mp4"  />
+                            <source src={require('../../static/videos/REVEL.mp4')} type="video/mp4"  />
                         </video>
     </div>
                         </div>

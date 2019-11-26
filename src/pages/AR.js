@@ -28,7 +28,7 @@ class AR extends React.Component {
 
 
 <video loop autoPlay>
-                            <source src={require('../../static/images/ARReal.mp4')} type="video/mp4" />
+                            <source src={require('../../static/videos/ARReal.mp4')} type="video/mp4" />
                         </video>
 
                         </div>
