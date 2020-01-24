@@ -57,7 +57,7 @@ I started by asking myself initial questions.</p>
 Because of the bigger screen, more space can be used to implement more features on the watch that would otherwise be too small to make sense.
 <br /><br />  <strong>A new standard.</strong> I am clearly aiming for the future with this prototype. While an Apple Watch is nothing new anymore, a different problem is eminent. It must be as friction free as possible. Using your phone to look at your watch is not. So it is aiming at a close future (2020-2021) in which Apple will launch their AR Headset. Then it would just become a part of the UI.
 <br /> <br /> <strong>Standalone.</strong> . With apple clearly pushing for a phone less future and on the way of making the Apple Watch standalone, using this technique will be crucial for that. A small screen like on the watch is not enough in a lot of daily situations. </p>
-<img className="profilAR" src = { require('../../static/images/SpotifyAR.png') }  />
+
 
                         </div>
                         </div>
