@@ -48,6 +48,18 @@ class Index extends React.Component {
           title="Smart Home"
           text="Alexa Skill Teehelfer"
           image='/images/TeeHelfer.png' />
+
+        <Card
+         link="https://www.youtube.com/watch?v=mJ9X260NkJQ"
+          title="Unreal"
+          text="Pacbears"
+          image='../images/unreal.jpg' />
+        <Card
+         link="https://www.youtube.com/watch?v=mJ9X260NkJQ"
+          title="Unity VR"
+          text="VRock"
+          image='../images/VRROCK.png' />
+
         <Card
         link="/REVEL"
           title="VR Startup"
@@ -56,7 +68,7 @@ class Index extends React.Component {
            <Card
            link="https://www.facebook.com/groups/SocialVR/?ref=bookmarks"
           title="Biggest VR Blog in Benelux"
-          text="TwistedReality"
+          text="SocialVR"
           image='/images/TR.png' />
           <Card
          link="https://www.heise.de/make/meldung/Interaktive-Lampen-zum-Anfassen-die-Ausstellung-Leuchte-in-Bremen-3249332.html?hg=1&hgi=3&hgf=false"
