@@ -55,7 +55,7 @@ class Index extends React.Component {
           text="PacBeard"
           image='../images/unreal.png' />
         <Card
-         link="https://www.youtube.com/watch?v=EhEs9E86DxE&feature=youtu.be"
+         link="https://www.youtube.com/watch?v=EhEs9E86DxE"
           title="Unity VR"
           text="VRock"
           image='../images/VRROCK.png' />
