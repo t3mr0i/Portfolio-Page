@@ -21,7 +21,7 @@ class About extends React.Component {
       <div className ="Text">
       <b> Hello</b>
           <br />
-        <p > I’m Kai Detmers, a digital designer and programmer living in Bremen, Germany. Digital Media was my passion ever since I got my first computer when I was six. A new world opened and seemed to open door after door during the years, VR, AR or now AI. That is what I love about the industry, it is ever changing. To keep up with the industry (and my biggest hobby), I listen to audiobooks or podcasts and simply meeting likeminded people on conferences. I would love to get in touch with you to talk about digital media topics.  </p>
+        <p > I’m Kai Detmers, a digital designer and programmer living in Bremen, Germany. Digital Media was my passion ever since I got my first computer when I was six. A new world opened and seemed to open door after door during the years, VR, AR or now AI. That is what I love about the industry, it is ever changing. To keep up with the industry (and my biggest hobby), I listen to audiobooks or podcasts and simply meeting like minded people on conferences. I would love to get in touch with you to talk about digital media topics.  </p>
 
 </div>
 <div class="zweiterText">
