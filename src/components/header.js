@@ -6,49 +6,47 @@ import '../layouts/index.css'
 class Header extends React.Component {
 
 
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props)
 
-        this.state = {
-            hasScrolled: false
-        }
+    this.state = {
+      hasScrolled: false,
     }
+  }
 
-    componentDidMount() {
-        window.addEventListener('scroll',
-            this.handleScroll)
+  componentDidMount() {
+    window.addEventListener('scroll',
+      this.handleScroll)
+  }
+
+  handleScroll = (event) => {
+    const scrollTop = window.pageYOffset
+
+    if (scrollTop > 50) {
+      this.setState({ hasScrolled: true })
+    } else {
+      this.setState({ hasScrolled: false })
     }
-
-    handleScroll = (event) => {
-        const scrollTop = window.pageYOffset
-
-        if (scrollTop > 50) {
-            this.setState({ hasScrolled: true })
-        } else {
-            this.setState({ hasScrolled: false })
-        }
-    }
+  }
 
 
-
-    render() {
-        return ( <div className = { this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header' } >
-            <div className = { this.state.hasScrolled ? '___gatsby aScrolled' : '___gatsby' } >
-
+  render() {
+    return (<div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
+        <div className={this.state.hasScrolled ? '___gatsby aScrolled' : '___gatsby'}>
 
 
-            <div className = "HeaderGroup" >
-           
+          <div className='HeaderGroup'>
 
-            <Link to = "/" > work </Link>
 
-            <Link to = "/about/" > me </Link> 
-            </div >
-             </div>
-              </div >
+            <Link to='/'> work </Link>
 
-        )
-    }
+            <Link to='/about/'> me </Link>
+          </div>
+        </div>
+      </div>
+
+    )
+  }
 }
 
 export default Header

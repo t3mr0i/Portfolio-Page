@@ -6,7 +6,7 @@ import Header from '../components/header'
 import './index.css'
 
 const Layout = ({ children, data }) => (
-  <div id="backgrounder">
+  <div id='backgrounder'>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -35,11 +35,11 @@ Layout.propTypes = {
 export default Layout
 
 export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
+    query SiteTitleQuery {
+        site {
+            siteMetadata {
+                title
+            }
+        }
     }
-  }
 `

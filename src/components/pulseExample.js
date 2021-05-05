@@ -1,5 +1,5 @@
-import React from 'react';
-import Pulse from 'react-reveal/Pulse';
+import React from 'react'
+import Pulse from 'react-reveal/Pulse'
 
 class PulseExample extends React.Component {
   render() {
@@ -9,8 +9,8 @@ class PulseExample extends React.Component {
           <h1>{pulser.prop}</h1>
         </Pulse>
       </div>
-    );
+    )
   }
 }
 
-export default PulseExample;
+export default PulseExample
